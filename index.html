@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AudienceTTS is a macOS companion that reads live YouTube chat aloud and follows your OBS stream.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; script-src 'none'; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>AudienceTTS — Live chat, spoken on your Mac</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html" aria-label="AudienceTTS home"><span class="brand-mark" aria-hidden="true">A</span>AudienceTTS</a>
+    <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="eyebrow">A companion for your live stream</p>
+      <h1 id="hero-title">Hear your chat.<br>Stay with your stream.</h1>
+      <p class="hero-copy">AudienceTTS reads live YouTube chat aloud on your Mac. It follows your OBS stream, so your attention can stay with the people watching.</p>
+      <div class="hero-actions"><a class="button" href="#how-it-works">See how it works <span aria-hidden="true">↗</span></a><a class="text-link" href="privacy.html">Read the privacy policy</a></div>
+      <p class="small muted">macOS · YouTube API Services · Local speech</p>
+    </section>
+
+    <section class="section wrap" id="how-it-works" aria-labelledby="workflow-title">
+      <div class="section-heading"><p class="eyebrow">One connected workflow</p><h2 id="workflow-title">From stream start<br>to spoken chat.</h2></div>
+      <ol class="workflow">
+        <li><span class="step-number" aria-hidden="true">01</span><div><h3>OBS sets the rhythm</h3><p>Start your stream in OBS. After one-time setup, AudienceTTS follows the stream through a connection on the same Mac.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">02</span><div><h3>YouTube delivers the chat</h3><p>Connect your channel through Google’s sign-in screen. The app finds its active broadcast and receives live chat through the official YouTube API.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">03</span><div><h3>Your Mac speaks</h3><p>Your filters, installed macOS voice and selected audio output shape what you hear. OBS stream stop cancels speech and clears pending messages.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="section wrap split-section" aria-labelledby="control-title">
+      <div><p class="eyebrow">Your stream, your controls</p><h2 id="control-title">Keep your familiar<br>monitoring setup.</h2></div>
+      <div class="prose"><p>Safari can remain open for YouTube Studio, chat and stream health. The direct YouTube connection does not need a second browser session to read messages.</p><p>Pause speech at any time. Stop TTS for the current stream, reconnect when needed, and choose a broadcast if more than one is active. These controls do not start or stop your OBS stream.</p></div>
+    </section>
+
+    <section class="privacy-band" aria-labelledby="privacy-title">
+      <div class="wrap privacy-band-inner"><div><p class="eyebrow">Understand the connection</p><h2 id="privacy-title">Read-only access.<br>Clear data practices.</h2><p>AudienceTTS requests read-only YouTube access. Account tokens and your OBS connection password are stored in macOS Keychain after you allow secure connections.</p></div><a class="button button-light" href="privacy.html">Privacy and data controls <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="section wrap compact-section" id="use" aria-labelledby="use-title">
+      <h2 id="use-title">Using AudienceTTS</h2>
+      <div class="prose"><p>AudienceTTS is an independent desktop application that uses YouTube API Services. It is not affiliated with or endorsed by Google, YouTube or OBS.</p><p>By using its YouTube-connected features, you agree to be bound by the <a href="https://www.youtube.com/t/terms" rel="noreferrer">YouTube Terms of Service</a>. Google’s handling of information is described in the <a href="https://policies.google.com/privacy" rel="noreferrer">Google Privacy Policy</a>.</p><p>This informational website does not sign you in, connect to your channel or collect chat. For help or privacy questions, use <a href="https://github.com/kaelianvale/audiencetts-info/issues" rel="noreferrer">AudienceTTS support issues</a>. GitHub issues are public: do not post credentials, OAuth client files, private chat content or unreviewed logs.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><span>AudienceTTS</span><div><a href="privacy.html">Privacy policy</a><a href="#use">Using the app</a></div><span class="small">Updated October 18, 2026</span></footer>
+</body>
+</html>
